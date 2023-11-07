@@ -1,0 +1,17 @@
+/* 28/10/23 Random Quote Machine Portfolio Project built using jQuery Library & Bootstrap Framework*/
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314_1280.jpg");
+}
+
+#button-box {
+  padding-left: 85%;
+}
+
+#tweet-quote {
+  padding: 9%;
+}
+
+.container {
+  height: 80%;
+}
+
