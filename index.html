@@ -1,0 +1,30 @@
+<!-- 28/10/23 Random Quote Machine Portfolio Project built using jQuery Library & Bootstrap Framework-->
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>jQuery/Bootstrap Quote Generator</title>
+    </head>
+    <body>
+      <header>
+        <p class="h1 text-center m-5 pb-5">Random Quote Machine<p>
+      </header>
+      <div class="container bg-info p-4" id="quote-box">
+        <p id="text" class="text-center p-4 display-6">"A person who never made a mistake never tried anything new."</p>
+        <p id="author" class="text-center p-2 h-5">-Albert Einstein</p>
+        <div id="button-box">
+        <button type="button" class="btn btn-primary mb-2" id="new-quote">Next Quote</button>
+        <a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank" title="Tweet this!"><i class="fa-brands fa-twitter mb-4 button"></i></a>
+        </div>
+      </div>
+      <footer><p class="text-center mt-5 pt-5">Copyright &copy;2023 by <a href="https://codepen.io/_trm_">trm</a>. All rights reserved</footer>
+      </body>
+  </html>
